@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jeet.css">
+    <link rel="icon" href="mdiit.ico">
+    <title>Admissions | Mehulkumar Desai Institute of Information Technology</title>
+</head>
+
+<body>
+    <a href="index.html"><img id="mainimage" title="MDIT" src="mdiit-high-resolution-logo-color-on-transparent-background.png" style=" display:block; margin-left:auto; margin-right:auto;"  alt="MDIIT" width="200"></a>
+    <form target="_blank"></form>
+    <div id="admissionform">
+        <label for="fname">First name : </label>
+        <input type="text" id="fname">
+        <br>
+        <br>
+        <label for="mname">Middle name : </label>
+        <input type="text" id="mname">
+        <br>
+        <br>
+        <label for="lname">Last name : </label>
+        <input type="text" id="lname">
+        <br>
+        <br>
+        <label for="date">Date of Birth : </label>
+        <input style="cursor:pointer" type="date" id="date">
+        <br><br>
+        <label for="email">E-mail address : </label>
+        <input type="email" id="email" placeholder="abc@xyz.com">
+        <br>
+        <br>
+        <label for="mobile">Mobile number : </label>
+
+        <input type="tel" if="mobile">
+        <br>
+        <br>
+        <label for="country">Country : </label>
+        <select style="cursor:pointer" name="country" id="country">
+            <option value="selectcountryfrombelow">Select any one of the following</option>
+            <option value="india">India</option>
+            <option value="other">other</option>
+        </select>
+        <br><br>
+        <label for="address">Address : </label>
+        <textarea name="address" id="address"></textarea>
+        <br>
+        <br>
+        <span>Gender : </span>
+        <input style="cursor:pointer" type="radio" name="gender" id="gender1">
+        <label for="gender1">Male</label>
+        <input style="cursor:pointer" type="radio" name="gender" id="gender2">
+        <label for="gender2">Female</label>
+        <input style="cursor:pointer" type="radio" name="gender" id="gender3">
+        <label for="gender3">Others</label>
+        <br><br>
+
+        <label for="quota">Quota : </label>
+        <select style="cursor:pointer" name="selectquota" id="quota">
+            <option value="selectquotafrombelow">Select any one of the following</option>
+            <option value="state">State Quota</option>
+            <option value="allindia">All India Quota</option>
+            <option value="nri">NRI Quota</option>
+        </select>
+        <br>
+        <br>
+        <span>Select if applicable : </span>
+        <label for="tfws">TFWS(Tution Fee Waiver Scheme)</label>
+        <input style="cursor:pointer" type="checkbox" id="tfws">
+        <br>
+        <br>
+        <label for="category">Category : </label>
+        <select style="cursor:pointer" name="category" id="category">
+            <option value="selectcategoryfrombelow">Select any one of the following</option>
+            <option value="general">General</option>
+            <option value="sc">SC</option>
+            <option value="st">ST</option>
+            <option value="pwd">PWD</option>
+        </select>
+        <br>
+        <br>
+        <label for="courses">Course : </label>
+        <select style="cursor:pointer" name="selectcourse" id="courses">
+            <option value="selectcoursefrombelow">Select any one of the following</option>
+            <option value="cse">BTech in MLAI</option>
+            <option value="ict">BTech in ICT</option>
+            <option value="cse">BTech in CSE</option>
+        </select>
+
+        <br><br>
+        <label for="file">Upload your 12th board marksheet here : </label>
+        <input style="cursor:pointer" type="file" name="file" id="file">
+        <br>
+        <br>
+        <input style="cursor:pointer" type="submit" id="submit" value="Submit">
+
+    </div>
+    </form>
+</body>
+
+</html>

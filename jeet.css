@@ -1,0 +1,160 @@
+body
+{
+    background-color:#094275;
+    color:#F0D5C0;
+}
+
+h1
+{
+    color:#F0D5C0;
+    text-align:center;
+}
+
+/* Logo styling */
+#mainimage
+{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+@keyframes imagemove
+{
+    from
+    {
+        width: 200px;
+        top:0px;
+
+    }
+    to
+    {
+        width:250px;
+        top:100px;
+
+    }
+}
+#mainimage:hover
+{
+    animation: imagemove;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+
+}
+
+/* campus images styling */
+.imagetable
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+.imagetable th
+{
+    border:5px solid #F0D5C0;
+}
+.imagetable td
+{
+    border:5px solid #F0D5C0;
+}
+.campusimages
+{
+    margin:20px 20px;
+    width:500px;
+}
+
+@keyframes enlargeit
+{
+    from
+    {
+        width: 500px;
+    }
+    to
+    {
+        width:750px;
+    }
+}
+
+.campusimages:hover
+{
+    animation:enlargeit;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+/* fees table styling */
+
+.feetable
+{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    font-size: x-large;
+}
+
+.feetable th
+{
+    border:5px solid #F0D5C0;
+}
+
+.feetable td
+{
+    border:5px solid #F0D5C0;
+}
+
+/* admission form  */
+#admissionform
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 47%;
+    border:5px solid #F0D5C0;
+    text-align: center;
+    font-size: x-large;
+}
+
+p
+{
+    font-family:sans-serif;
+    color:#F0D5C0;
+    font-size:x-large;
+}
+hr
+{
+    color:tomato;
+}
+ol
+{
+    font-size: larger;
+}
+
+a
+{
+    color: #F0D5C0;
+    text-decoration: none;
+}
+
+
+a:hover
+{
+    color:black;
+    text-decoration: dotted;
+}
+
+pre
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav
+{
+    font-size:x-large;
+}
+
+
