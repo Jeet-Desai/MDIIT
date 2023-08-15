@@ -119,15 +119,27 @@ h1
     font-size: x-large;
 }
 
+/*course information*/
+.courseinfo
+{
+    border:5px solid #F0D5C0;
+    font-size:x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:20px;
+
+}
+
 p
 {
     font-family:sans-serif;
     color:#F0D5C0;
-    font-size:x-large;
 }
 hr
 {
-    color:tomato;
+    color:#F0D5C0;
 }
 ol
 {
@@ -156,5 +168,6 @@ nav
 {
     font-size:x-large;
 }
+
 
 
