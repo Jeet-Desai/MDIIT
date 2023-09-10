@@ -1,12 +1,17 @@
+*
+{
+    margin:0;
+}
+
 body
 {
-    background-color:#094275;
-    color:#F0D5C0;
+    background-color:white;
+    color:black;
 }
 
 h1
 {
-    color:#F0D5C0;
+    color:white;
     text-align:center;
 }
 
@@ -16,7 +21,19 @@ h1
     display: block;
     margin-left:auto;
     margin-right:auto;
+    align-self: center;
     
+}
+
+
+
+#mainimagebg
+{
+
+    background-color:#094275;
+    align-content: center;
+    width: 100%;
+    padding-bottom: 10px;
 }
 
 @keyframes imagemove
@@ -43,6 +60,62 @@ h1
 
 }
 
+/* Navigation bar */
+#navbar
+{
+    position: sticky;
+    top:0;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    margin-top:0px;
+    padding: 0;
+    background-color:#094275;
+    text-align: center;
+}
+
+#navbar li
+{
+    color:white;
+    display: inline;
+    font-size: x-large;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0.5px;
+    text-align: center;
+    color:white;
+}
+
+
+
+#navbar li:hover
+{
+    background-color:white ;
+}
+
+#navbar li a
+{
+    color:white;
+}
+
+#navbar li:hover a
+{
+    color:#094275;
+}
+
+
+
+.active
+{
+    background-color: white;
+}
+
+.active a
+{
+    color:#094275 !important;
+}
+
+
 /* campus images styling */
 .imagetable
 {
@@ -54,11 +127,11 @@ h1
 }
 .imagetable th
 {
-    border:5px solid #F0D5C0;
+    border:5px solid black;
 }
 .imagetable td
 {
-    border:5px solid #F0D5C0;
+    border:5px solid black;
 }
 .campusimages
 {
@@ -98,48 +171,50 @@ h1
 
 .feetable th
 {
-    border:5px solid #F0D5C0;
+    border:5px solid black;
 }
 
 .feetable td
 {
-    border:5px solid #F0D5C0;
+    border:5px solid black;
 }
 
 /* admission form  */
 #admissionform
 {
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 47%;
-    border:5px solid #F0D5C0;
+    border:5px solid black;
     text-align: center;
     font-size: x-large;
+    color:black;
 }
 
 /*course information*/
 .courseinfo
 {
-    border:5px solid #F0D5C0;
+    border:5px solid black;
     font-size:x-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 30px;;
     margin-left: 10px;
     margin-right: 10px;
     padding:20px;
+    color:black;
 
 }
 
 p
 {
     font-family:sans-serif;
-    color:#F0D5C0;
+    color:black;
 }
 hr
 {
-    color:#F0D5C0;
+    color:black;
 }
 ol
 {
@@ -148,7 +223,7 @@ ol
 
 a
 {
-    color: #F0D5C0;
+    color: black;
     text-decoration: none;
 }
 
