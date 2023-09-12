@@ -16,14 +16,27 @@ h1
 }
 
 /* Logo styling */
+
+
+#mainimagecontainer
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
 #mainimage
 {
-    display: block;
-    margin-left:auto;
+    /* display: block; */
+    width:200px;
+    /* margin-left:auto;
     margin-right:auto;
-    align-self: center;
+    align-self: center; */
     
 }
+
+
 
 
 
@@ -191,7 +204,7 @@ h1
     width:400px;
 }
 
-@media screen and (max-width:400px)
+@media screen and (max-width:420px)
 {
     .imagetable
     {
