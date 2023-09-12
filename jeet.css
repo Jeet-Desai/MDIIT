@@ -167,41 +167,81 @@ h1
 /* campus images styling */
 .imagetable
 {
-    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
     margin-right: auto;
     margin-top:20px;
     margin-bottom: 20px;
     border-collapse: collapse;
+    overflow: auto;
+    background-color:#094275;
 }
-.imagetable th
+
+.imagetable .imagedivs
 {
-    border:5px solid black;
+    margin:5px;
+    /* border:5px solid black; */
 }
-.imagetable td
-{
-    border:5px solid black;
-}
+
 .campusimages
 {
+    border: 5px solid black;
     margin:20px 20px;
-    width:500px;
+    width:400px;
+}
+
+@media screen and (max-width:400px)
+{
+    .imagetable
+    {
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        width:260px;
+    }
+    .campusimages
+    {
+        width:200px;
+    }
+    .campusimages:hover
+{
+    animation:enlargeitsmallscreen;
+    animation-delay:400ms ;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+
+}
 }
 
 @keyframes enlargeit
 {
     from
     {
-        width: 500px;
+        width: 400px;
     }
     to
     {
-        width:750px;
+        width:550px;
+    }
+}
+
+@keyframes enlargeitsmallscreen
+{
+    from
+    {
+        width: 200px;
+    }
+    to
+    {
+        width:350px;
     }
 }
 
 .campusimages:hover
 {
     animation:enlargeit;
+    animation-delay:400ms ;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
 
